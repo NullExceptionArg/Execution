@@ -1,0 +1,22 @@
+name: Execution
+version: 1.0
+api-version: 1.16
+author: NullExceptionArg
+main: org.github.nullexceptionarg.atplayer.AtPlayer
+depend: [Essentials]
+
+commands:
+  execute:
+    description: Allows you to execute a player
+    usage: /execute <player>
+    permission: execute.execute
+  setexecute:
+    description: Allows you to set
+    usage: /setexecute <heightOfBlade> <widthOfBlade>
+    permission: execute.set
+
+permissions:
+  execute.execute:
+    description: Allows you to use /execute
+  execute.set:
+    description: Allows you to use /setexecute
